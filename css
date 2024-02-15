@@ -1,1 +1,86 @@
+body {
+    margin: 0;
+}
 
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background: url(/img/header.png);
+    background-size: cover;
+    height: 300px;
+}
+
+.hiroki-img {
+    width: 335px;
+}
+
+.hiroki-img img {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.ball-img {
+    width: 352px;
+}
+
+.ball-img img {
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+
+.header-text {
+    position: absolute;
+    width: 80%;
+    height: 110px;
+    background-color: black;
+    color: white;
+    margin-left: 12%;
+    margin-top: 100px;
+}
+
+.header-text p {
+    text-align: center;
+}
+
+.first-v-wrap {
+    display: flex;
+    font-size: 100px;
+    justify-content: space-between;
+}
+
+.text {
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0px;
+}
+
+.text1 {
+    background: linear-gradient(90deg, #242424 0%, #777777 100%);
+}
+
+.text2 {
+    background: linear-gradient(90deg, #ffffff 0%, #9b9b9b 100%);
+}
+
+.yajirusi {
+    width: 170px;
+    margin: auto;
+}
+
+.yajirusi img {
+    width: 100%;
+}
+
+.first-v2 {
+    background: linear-gradient(90deg, #ffde59 0%, #ff914d 100%);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
